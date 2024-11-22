@@ -79,11 +79,11 @@ export class Terminal extends Component {
             <React.Fragment key={id}>
                 <div className="flex w-full h-5 bg-ub-drk-abrgn">
                     <div className="flex">
-                        <div className=" text-ubt-green">HKU @ way2way</div>
-                        <div className=" text-ubt-blue"> &nbsp;Ask me anything about HKU</div>
+                        <div className=" text-ubt-green">INPUT</div>
+                        <div className=" text-ubt-blue"> &nbsp;Where you want to go</div>
                         <div className="text-ubt-blue mx-px font-medium">:</div>
-                        <div className=" text-ubt-blue">{this.current_directory}</div>
-                        <div className="text-ubt-green mx-px font-large mr-1">$</div>
+                        {/* <div className=" text-ubt-blue">{this.current_directory}</div>
+                        <div className="text-ubt-green mx-px font-large mr-1">$</div> */}
                     </div>
                     <div id="cmd" onClick={this.focusCursor} className=" bg-transperent relative flex-1 overflow-hidden">
                         <span id={`show-${id}`} className=" float-left whitespace-pre pb-1 opacity-100 font-normal tracking-wider"></span>
