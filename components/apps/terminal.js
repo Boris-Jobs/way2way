@@ -206,8 +206,10 @@ export class Terminal extends Component {
         let rest = words.join(" ");
         rest = rest.trim();
         switch (main) {
-            default:
-                result = await callOpenAI(command, this.state.image);
+            case "main library":
+                result = "Follow the main road straight ahead, and you'll come across the Faculty of Engineering. Then, turn left and walk approximately 10 meters straight. After that, there's a downhill slope. Once you've walked down the slope, the Main Library will be on your right.";
+            // default:
+            //     result = await callOpenAI(command, this.state.image);
         }
         document.getElementById(`row-result-${rowId}`).innerHTML = result;
         this.appendTerminalRow();
