@@ -3,7 +3,8 @@ import $ from 'jquery';
 
 export function Settings(props) {
     const wallpapers = {
-        "wall-1": "./images/wallpapers/wall-1.webp"
+        "wall-1": "./images/wallpapers/wall-1.webp",
+        "wall-2": "./images/wallpapers/wahh-2.webp"
     };
 
     let changeBackgroundImage = (e) => {
