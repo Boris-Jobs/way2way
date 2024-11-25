@@ -209,8 +209,13 @@ export class Terminal extends Component {
             case "kk":
                 result = "It looks like you're in a place that doesn't belong to HKU.";
                 break;
+            case "where we are":
+                result = "It seems like you are in the G floor of library building (main library). So where do you want to go?";
+                break;
+            case "swire building":
+                result = "Turn left first, go straight then pass the knowles building, and go into the K K Leung Building, take the lift to the LG floor, then go out and turn right, then you will see the swire building."
             default:
-                result = "Follow the main road straight ahead, and you'll come across the Faculty of Engineering. Then, turn left and walk approximately 10 meters straight. After that, there's a downhill slope. Once you've walked down the slope, the Main Library will be on your right.";
+                result = "Hi, welcome to HKU.way2way, what can I help you?";
             // default:
             //     result = await callOpenAI(command, this.state.image);
         }
