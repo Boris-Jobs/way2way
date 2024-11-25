@@ -206,7 +206,7 @@ export class Terminal extends Component {
         let rest = words.join(" ");
         rest = rest.trim();
         switch (main) {
-            case "swire building":
+            case "swire":
                 result = "It seems like you are in the G floor of library building (main library). Turn left first, go straight then pass the knowles building, and go into the K K Leung Building, take the lift to the LG floor, then go out and turn right, then you will see the swire building.";
                 break;
             default:
