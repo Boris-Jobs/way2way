@@ -213,7 +213,8 @@ export class Terminal extends Component {
                 result = "It seems like you are in the G floor of library building (main library). So where do you want to go?";
                 break;
             case "swire building":
-                result = "Turn left first, go straight then pass the knowles building, and go into the K K Leung Building, take the lift to the LG floor, then go out and turn right, then you will see the swire building."
+                result = "Turn left first, go straight then pass the knowles building, and go into the K K Leung Building, take the lift to the LG floor, then go out and turn right, then you will see the swire building.";
+                break;
             default:
                 result = "Hi, welcome to HKU.way2way, what can I help you?";
             // default:
